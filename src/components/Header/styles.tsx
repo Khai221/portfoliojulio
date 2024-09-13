@@ -39,6 +39,12 @@ export const HeaderContainer = styled.header`
                     flex-direction: center;
                     align-items: center;
 
+
+                    &:hover {
+                        border-bottom: 3px solid #fff;
+                        transition: 0.5s;
+                    }
+                    
                     a:hover {
                         color: #6743a5;
                         font-weight: 700;
