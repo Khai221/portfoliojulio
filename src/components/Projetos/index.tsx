@@ -24,7 +24,7 @@ export const Projetos = () => {
     // }, [])
 
     return (
-        <ProjetosEstilo id="secao3">
+        <ProjetosEstilo id="secao3" className="secao">
             <div>
                 <h2>Principais projetos</h2>
             </div>

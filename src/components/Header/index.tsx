@@ -14,16 +14,16 @@ export const Header: React.FC<HeaderProps> = ( { activeSection } ) => {
             <nav>
                 <ul>
                     <LiEstilo>
-                        <LinkEstilo className={activeSection === 'inicio' ? 'active' : ''} href="#secao1">Inicio</LinkEstilo>
+                        <LinkEstilo className={activeSection === 'secao1' ? 'active' : ''} href="#secao1">Inicio</LinkEstilo>
                     </LiEstilo>
                     <LiEstilo>
-                        <LinkEstilo className={activeSection === 'sobre' ? 'active' : ''} href="#secao2">Sobre mim</LinkEstilo>
+                        <LinkEstilo className={activeSection === 'secao2' ? 'active' : ''} href="#secao2">Sobre mim</LinkEstilo>
                     </LiEstilo>
                     <LiEstilo>
-                        <LinkEstilo className={activeSection === 'projetos' ? 'active' : ''} href="#secao3">Projetos</LinkEstilo>
+                        <LinkEstilo className={activeSection === 'secao3' ? 'active' : ''} href="#secao3">Projetos</LinkEstilo>
                     </LiEstilo>
                     <LiEstilo>
-                        <LinkEstilo className={activeSection === 'contato' ? 'active' : ''} href="#secao4">Contato</LinkEstilo>
+                        <LinkEstilo className={activeSection === 'secao4' ? 'active' : ''} href="#secao4">Contato</LinkEstilo>
                     </LiEstilo>
                     <li>
                         <LinkEstilo target="_blank" className="botao" href="https://drive.google.com/uc?export=download&id=1s8MLKyg9i7IG5ThraGBgnqHFZk2B4ab9" download="Curriculo_Julio_Narciso.pdf">Currículo</LinkEstilo>

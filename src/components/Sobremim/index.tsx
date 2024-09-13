@@ -2,7 +2,7 @@ import { SobremimEstilo } from "./styles"
 
 export const Sobremim = () => {
     return (
-        <SobremimEstilo id="secao2">
+        <SobremimEstilo id="secao2" className="secao">
             <div>
                 <h2>
                     Sobre Mim

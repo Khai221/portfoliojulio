@@ -4,24 +4,27 @@ export const ContatoEstilo = styled.section`
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 15rem;
     margin-bottom: 8rem;
+    height: 50vh;
 
     .roxin {
         color: #7345d6;
+
+
     }
 
-    a {
-        text-decoration: none;
-        color: #fff;
-        cursor: pointer;
-    }
 
     svg {
         color: #7345d6;
         padding: 1rem;
-        border-bottom: 3px solid #7345d6;
-    }
+
+        &:hover {
+            color: #FFF;
+            border-bottom: 5px solid #7345d6;
+            }
+
+        }
 
     h1 {
         font-weight: 700;
